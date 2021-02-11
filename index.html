@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="grid.css" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+			}
+
+			.container {
+				text-align: center;
+				background-color: palegoldenrod;
+			}
+
+			.course-item {
+				background-color: rgb(75, 42, 42);
+				height: 260px;
+			}
+
+			h1 {
+				color: #fff;
+				line-height: 260px;
+			}
+
+			.category {
+				background-color: orange;
+			}
+		</style>
+	</head>
+
+	<!-- 
+        Column: .col
+        Prefix class:
+            - c - mobile
+            - m - tablet
+            - l - pc
+
+
+     -->
+
+	<body>
+		<div class="grid wide container">
+			<div class="row">
+				<div class="col l-3 l-o-6 m-0 c-0">
+					<div class="category">
+						<h1>Category 1</h1>
+					</div>
+				</div>
+
+				<div class="col l-3 m-0 c-0">
+					<div class="category">
+						<h1>Category 2</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
